@@ -1,12 +1,809 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aliwood</title>
-    <link rel="stylesheet" href="./assets/css/Styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="menu container">
+            <a href="#"><img src="./assets/img/logo.png" class="logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="./assets/img/icons8-menú-50.svg" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-text">
+                <h1>Muebles de Algarrobo</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iure sint, quibusdam enim nam
+                    harum ex quia molestiae eos, suscipit corrupti magni minus. Explicabo a facilis numquam. Officia,
+                    dolor placeat.
+                    Perferendis esse, eum enim iste beatae tempore earum, deleniti animi, dolor veniam ipsum magnam
+                    placeat! Doloremque nesciunt quos qui earum dicta, dignissimos saepe id ducimus est eaque! Nesciunt,
+                    deserunt repudiandae.
+                </p>
+                <div class="botones">
+                    <a href="#" class="btn-1">Comprar <i class="bi bi-cart4"></i></a>
+                    <a href="#" class="btn-2">Informacion <img class="icon" src="./assets/img/info-chico.png"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="./assets/img/juego-comedor.svg" class="mueble" alt=""> 
+            </div>
+        </div>
+    </header>
+    <main class="product-menu">
+        <div class="container">
+
+            <div class="product">
+                <h2 class="title">Mas Vendidos</h2>
+                <img class="placar" src="./assets/img/mueble color.png" alt=""> 
+            </div>
+
+            <div class="menu-nav">
+                <div id="pro1" class="tab active">Baño</div>
+                <div id="pro2" class="tab">Living</div>
+                <div id="pro3" class="tab">Cocina</div>
+            </div>
+
+            <!-- Comienzan las imagenes de los articulod mas vendidos -->
+
+            <div class="pro1 tab-content">
+                <div class="box-container-1">
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$195.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$190.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/cama-niño.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camama Niño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$150.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/cama.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Cama Matrimonial </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/juego-cocina.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Cocina </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$270.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/juego-living.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Living </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/mesada.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mesada</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/muebles-algarrobo.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Baño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$400.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/mueble-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mueble de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$70.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/placar.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./assets/img/placar-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar Pequeño de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$100.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <center>
+                    <div class="load-more" id="load-more-1">Ver mas</div>
+                </center>
+            </div>
+
+
+            <div class="pro2 tab-content">
+                <div class="box-container-2">
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$195.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$190.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/cama-niño.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camama Niño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$150.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/cama.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Cama Matrimonial </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/juego-cocina.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Cocina </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$270.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/juego-living.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Living </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/mesada.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mesada</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/muebles-algarrobo.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Baño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$400.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/mueble-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mueble de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$70.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/placar.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box2">
+                        <div class="image">
+                            <img src="./assets/img/placar-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar Pequeño de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$100.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                
+                <center>
+                    <div class="load-more" id="load-more-2">Ver mas</div>
+                </center>
+            </div>
+
+            <div class="pro3 tab-content">
+
+                <div class="box-container-3">
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$195.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/juego-comedor-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Comedor </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$190.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/cama-niño.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camama Niño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$150.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/cama.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Cama Matrimonial </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/juego-cocina.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Cocina </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$270.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/juego-living.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set de Living </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/mesada.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mesada</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$120.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/muebles-algarrobo.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Set Baño </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$400.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/mueble-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mueble de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$70.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/placar.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$250.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box3">
+                        <div class="image">
+                            <img src="./assets/img/placar-2.svg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Placar Pequeño de Dormitorio</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, culpa cum fugiat in
+                                ducimus porro, odio quo laboriosam sint dolores deleniti modi libero expedita quaerat
+                                vero incidunt, numquam vel! Recusandae.
+                            </p>
+                            <div class="icons">
+                                <span class="price">$100.000</span>
+                                <span class="buy"><img src="./assets/img/carrito-chico.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <center>
+                    <div class="load-more" id="load-more-3">Ver mas</div>
+                </center>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="info">
+
+        <div class="info-content container">
+
+            <div class="info-text">
+                <p>Los Mejores Muebles del Mercado</p>
+                <h2>Informacion</h2>
+
+                <div class="info-sec">
+
+                    <div class="info-1">
+                        <img src="./assets/img/icons8-línea-vertical-gruesa-100.png" alt="">
+                        <div class="info-2">
+                            <h3>Living</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis repellendus veritatis, exercitationem quos praesentium iste rem enim voluptates repudiandae natus quas optio alias beatae ex provident expedita maxime amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-1">
+                        <img src="./assets/img/icons8-línea-vertical-gruesa-100-verde.png" alt="">
+                        <div class="info-2">
+                            <h3>Baño</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis repellendus veritatis, exercitationem quos praesentium iste rem enim voluptates repudiandae natus quas optio alias beatae ex provident expedita maxime amet?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info-1">
+                        <img src="./assets/img/icons8-línea-vertical-gruesa-100-celeste.png" alt="">
+                        <div class="info-2">
+                            <h3>Cocina</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis repellendus veritatis, exercitationem quos praesentium iste rem enim voluptates repudiandae natus quas optio alias beatae ex provident expedita maxime amet?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-img">
+                <img src="./assets/img/muebles-algarrobo.svg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="./assets/script/script.js"></script>
+
+
+    <footer class="footer container">
+
+        <img class="logo-2" src="./assets/img/logo.png" alt="">
+
+        <div class="links">
+            <h4>Servicios de transporte</h4>
+            <ul>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Nuestros fabricantes de cofianza</h4>
+            <ul>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>las empresas que nos apoyan</h4>
+            <ul>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+                <li><a target="_blank" href="">#</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+                <a target="_blank" href="https://es-la.facebook.com/">
+                    <div class="social">
+                        <img src="./assets/img/redes sociales/icons8-facebook.svg" alt="">
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <div class="social">
+                        <img src="./assets/img/redes sociales/icons8-instagram.svg" alt="">
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.reddit.com">
+                    <div class="social">
+                        <img src="./assets/img/redes sociales/icons8-reddit (1).svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+
 </body>
+
 </html>
