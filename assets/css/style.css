@@ -105,11 +105,16 @@ body{
 
 .btn-1 {
     display: inline-block;
-    background: linear-gradient(90deg, #E70B25 0%, #900314 100%);
+    background: linear-gradient(90deg, #E70B25 0%, #E70B25 100%);
+    border-color: transparent;
     padding: 10px 35px;
     margin-right: 20px;
     color: #FDFDFD;
     border-radius: 25px;
+}
+.btn-1:hover {
+    background: rgb(248, 243, 243);
+    color: #E70B25;
 }
 
 .btn-2 {
@@ -119,10 +124,6 @@ body{
     margin-right: 20px;
     color: #FDFDFD;
     border-radius: 25px;
-}
-
-.btn-1:hover {
-    background: linear-gradient(90deg, #f3031f 0%, #bc0217 100%);
 }
 
 .btn-2:hover {
